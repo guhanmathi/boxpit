@@ -5,12 +5,21 @@ Static site for the Boxpit app — a landing page (`index.html`) and the
 
 No build step. Plain HTML + one CSS file + images in `assets/`.
 
+## Live URLs
+
+Repo: <https://github.com/guhanmathi/boxpit> · deployed via GitHub Pages.
+
+| Page | URL |
+|---|---|
+| Landing page | <https://guhanmathi.github.io/boxpit/> |
+| Privacy policy | <https://guhanmathi.github.io/boxpit/privacy.html> |
+
 ## What Play Console needs
 
-| Console field | URL to paste (once deployed) |
+| Console field | URL to paste |
 |---|---|
-| Store listing → **Privacy policy** | `https://<user>.github.io/boxpit/privacy.html` |
-| Store listing → **Website** (optional) | `https://<user>.github.io/boxpit/` |
+| Store listing → **Privacy policy** | `https://guhanmathi.github.io/boxpit/privacy.html` |
+| Store listing → **Website** (optional) | `https://guhanmathi.github.io/boxpit/` |
 
 ## Deploy to GitHub Pages — pick one
 
