@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boxpit — Formula 1 news, calendar &amp; standings</title>
+<meta name="description" content="Boxpit is a fast, private Formula 1 companion: news from the sources you choose, the full race calendar with a live countdown, championship standings, and a home-screen widget.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/icon_512.png">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 200 200" aria-hidden="true">
+      <rect width="200" height="200" rx="44" fill="#0e0f10"/>
+      <path d="M52 44 L108 100 L52 156 L84 156 L140 100 L84 44 Z" fill="#fff"/>
+      <rect x="44" y="168" width="112" height="16" rx="4" fill="#E10600"/>
+    </svg>
+    <span class="brand">Boxpit</span>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Formula 1, without the noise.</h1>
+    <p>News from the sources you choose. The full race calendar with a live countdown to the
+       next session. Championship standings. A home-screen widget. No account, no tracking.</p>
+    <a class="badge disabled" aria-disabled="true">Coming soon to Google Play</a>
+    <small>Currently in internal testing.</small>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <h2>What's inside</h2>
+    <div class="features">
+      <div class="card">
+        <h3>News feed</h3>
+        <p>Headlines from the F1 sites you subscribe to, cleaned up for reading. Follow drivers
+           and teams to filter. Bookmark for later. Import your own feeds via OPML.</p>
+      </div>
+      <div class="card">
+        <h3>Race calendar</h3>
+        <p>Every session of the weekend — practice, qualifying, sprint, race — in your local
+           time, with a live countdown to the next one on track.</p>
+      </div>
+      <div class="card">
+        <h3>Standings</h3>
+        <p>Up-to-date drivers' and constructors' championship tables.</p>
+      </div>
+      <div class="card">
+        <h3>Home-screen widget</h3>
+        <p>A resizable widget showing the next or currently-live session and the countdown.</p>
+      </div>
+      <div class="card">
+        <h3>Private by design</h3>
+        <p>No account system. No analytics, no crash reporting, no ad networks. Nothing you do
+           in the app leaves your device.</p>
+      </div>
+      <div class="card">
+        <h3>Free</h3>
+        <p>Boxpit is free to use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+  <div class="wrap">
+    <h2>Screens</h2>
+    <div class="shots">
+      <img src="assets/screenshot_1_feed.png" alt="Boxpit news feed">
+      <img src="assets/screenshot_2_calendar.png" alt="Boxpit race calendar with countdown">
+      <img src="assets/screenshot_3_standings.png" alt="Boxpit championship standings">
+      <img src="assets/screenshot_4_widget.png" alt="Boxpit home-screen widget">
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="y">2026</span> Boxpit</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:mguhan89@gmail.com">Contact</a>
+    <span class="spacer"></span>
+    <span>Not affiliated with Formula 1, the FIA, or any team.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

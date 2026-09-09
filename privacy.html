@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boxpit — Privacy Policy</title>
+<meta name="description" content="Boxpit's privacy policy. Boxpit collects no personal data, has no account system, and uses no analytics, crash-reporting, or advertising SDKs.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/icon_512.png">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 200 200" aria-hidden="true">
+      <rect width="200" height="200" rx="44" fill="#0e0f10"/>
+      <path d="M52 44 L108 100 L52 156 L84 156 L140 100 L84 44 Z" fill="#fff"/>
+      <rect x="44" y="168" width="112" height="16" rx="4" fill="#E10600"/>
+    </svg>
+    <span class="brand">Boxpit</span>
+    <nav><a href="index.html">Home</a></nav>
+  </div>
+</header>
+
+<div class="legal wrap">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 9 September 2026</p>
+
+  <p>Boxpit ("the app") is a Formula 1 news reader, race calendar, and standings app for
+     Android, published by the developer <strong>gmlabs</strong>. This policy explains what
+     data the app does and does not handle. It is written to match what the app's code
+     actually does.</p>
+
+  <h2>Short version</h2>
+  <p>Boxpit does not collect, store, or share any personal information. There is no account
+     system, no analytics, no crash reporting, and no advertising. Everything you do in the
+     app stays on your device.</p>
+
+  <h2>Data the app stores on your device</h2>
+  <p>The following is stored only in the app's private storage on your phone or tablet, and
+     is never transmitted to us or to anyone else:</p>
+  <ul>
+    <li>The list of news feeds you subscribe to, and your app settings.</li>
+    <li>Articles downloaded from those feeds, and which ones you have read or bookmarked.</li>
+    <li>Cached Formula 1 schedule and standings data.</li>
+  </ul>
+  <p>You can erase all of this at any time using Android's "Clear storage" option for the
+     app, or by uninstalling it.</p>
+
+  <h2>Network connections the app makes</h2>
+  <p>To show you content, the app connects directly to:</p>
+  <ul>
+    <li>The RSS/Atom news feeds you are subscribed to (by default: RaceFans, Autosport,
+        Motorsport.com and PlanetF1 — you can add or remove feeds).</li>
+    <li><code>api.jolpi.ca</code>, a free public Formula 1 data API, for the race calendar and
+        championship standings.</li>
+    <li>Image servers (content delivery networks) belonging to those news publishers, to load
+        the pictures that appear with articles.</li>
+  </ul>
+  <p>These requests are made over HTTPS. They necessarily reveal your device's IP address and
+     a standard request to those third-party servers, as any web request does; the operators
+     of those services handle that data under their own privacy policies. Boxpit sends them no
+     identifier, account, or personal information of any kind.</p>
+
+  <h2>Permissions</h2>
+  <p>The app requests only:</p>
+  <ul>
+    <li><strong>Internet / network state</strong> — to download feeds, F1 data, and images,
+        and to check whether you are online.</li>
+    <li><strong>Run at startup / wake lock / foreground service</strong> — used by Android's
+        WorkManager to refresh feeds in the background so content is ready when you open the
+        app. These do not access any personal data.</li>
+  </ul>
+
+  <h2>Analytics, advertising, and third-party SDKs</h2>
+  <p>There are none. Boxpit contains no analytics SDK, no crash-reporting SDK, and no
+     advertising SDK. It does not use an Advertising ID.</p>
+
+  <h2>Children</h2>
+  <p>Boxpit is a general-audience news app and is not directed at children under 13. It does
+     not knowingly collect information from anyone, of any age.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app's data practices change in a future version, this page will be updated and the
+     "last updated" date above will change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a></p>
+
+  <p style="margin-top:40px; color:var(--muted); font-size:14px;">Boxpit is an independent app
+     and is not affiliated with, endorsed by, or associated with Formula 1, Formula One
+     Licensing BV, the FIA, or any Formula 1 team.</p>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="y">2026</span> Boxpit</span>
+    <a href="index.html">Home</a>
+    <a href="mailto:mguhan89@gmail.com">Contact</a>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
