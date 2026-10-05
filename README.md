@@ -52,7 +52,7 @@ Settings → Pages → Source: `boxpit-rebuild` branch, `/website` folder. URL w
 
 ## Editing
 
-- Contact email is `mguhan89@gmail.com` in both HTML files — change in both if it moves.
+- Contact email is `gmlabs.studio@gmail.com` in both HTML files — change in both if it moves.
 - Colours/spacing: `style.css` (`--red`, `--carbon`, etc.).
 - The privacy text mirrors the app's actual code (no accounts / SDKs; feeds + `api.jolpi.ca`
   + publisher image CDNs as the only network destinations). Keep it truthful if the app
